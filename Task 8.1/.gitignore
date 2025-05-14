@@ -1,3 +1,4 @@
+# Android app
 *.iml
 .gradle
 /local.properties
@@ -13,4 +14,34 @@
 .externalNativeBuild
 .cxx
 local.properties
-/backend/
+
+# Python backend
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/*$py.class
+/backend/venv/
+/backend/env/
+/backend/.env
+/backend/.venv
+/backend/.Python
+/backend/env/
+/backend/build/
+/backend/develop-eggs/
+/backend/dist/
+/backend/downloads/
+/backend/eggs/
+/backend/.eggs/
+/backend/lib/
+/backend/lib64/
+/backend/parts/
+/backend/sdist/
+/backend/var/
+/backend/wheels/
+/backend/*.egg-info/
+/backend/.installed.cfg
+/backend/*.egg
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/.tox/
+/backend/.nox/
